@@ -53,28 +53,6 @@ Explore the richness of metals in the periodic with detailed information and int
 - Create a Pull Request which will be reviewed and suggestions would be added to improve it.
 - Add Screenshots and updated website links to help us understand what changes is all about.
 
-### Getting Started
-
-```bash
-git clone https://github.com/psykat1116/Modern_Periodic_Table.git
-```
-
-### Important Point
-
-You must change the file name `Modern_Periodic_Table` to the lowercase letter of your choice before entering into the folder otherwise it will show an error. It will also show errors and problems after running the project.
-
-```bash
-cd <your given file name>
-```
-
-## Run the project
-
-```bash
-npm install
-npm run dev
-```
-
-You Can See The Running Project in [http://localhost:3000](http://localhost:3000)
 
 ## Contributing is fun🧡
 
