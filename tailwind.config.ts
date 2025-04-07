@@ -72,9 +72,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        poppins: "var(--font-poppins)",
-        satisfy: "var(--font-satisfy)",
-        lora: "var(--font-lora)",
+        sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['ui-serif', 'Georgia', 'serif'],
+        mono: ['ui-monospace', 'SFMono-Regular', 'monospace'],
       },
       backdropBlur: {
         require: "3px",
@@ -82,7 +82,7 @@ const config: Config = {
       animation: {
         rotate: "rotate 1.5s linear infinite",
         skeleton: "skeleton 1.5s ease-in-out infinite",
-        wiggle: "wiggle 1.5s ease-in-out infinite", // ✅ Added wiggle animation
+        wiggle: "wiggle 1.5s ease-in-out infinite",
       },
       keyframes: {
         rotate: {
@@ -108,7 +108,7 @@ const config: Config = {
           "50%": {
             transform: "translateX(10%)",
           },
-        }, // ✅ Added wiggle keyframes
+        },
       },
       screens: {
         table: "1150px",
@@ -122,4 +122,5 @@ const config: Config = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
 export default config;
